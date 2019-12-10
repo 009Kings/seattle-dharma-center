@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.3em;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  margin: .3em;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+section h2 {
+  border-bottom: .1em solid lightblue;
+  padding-bottom: .3em;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.lil-splash {
+  height: 50vh;
+  background: url(assets/nomad-compass-travel-Bade5iesvRU-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .4;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  width: 100vw;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background: lightblue;
+  margin: 0;
+  padding: .5em;
+}
+
+.teachings {
+  list-style: none;
+  padding: .5em;
+}
+
+.teaching {
+  margin-bottom: 2em;
+}
+
+.teaching * {
+  margin: 0;
+}
